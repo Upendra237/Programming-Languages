@@ -1,6 +1,33 @@
 # Logic Gates Table Generator
 
 A command-line tool for generating and visualizing truth tables for various logic gates. This program provides an interactive interface to work with different types of logic gates and visualize their behavior through colorful truth tables.
+```
++============================================================+
+|           Welcome to Logic Gates Table Generator           |
++============================================================+
+|                                                            |
+|                        Developed By                        |
+|                                                            |
+|                       Upendra Shahi                        |
+|                                                            |
++------------------------------------------------------------+
+|                          Features                          |
++------------------------------------------------------------+
+| Available Logic Gates:                                     |
+| -> Basic Gates: AND, OR, NOT                               |
+| -> Complex Gates: NAND, NOR, XOR, XNOR                     |
+| Program Features:                                          |
+| -> Default: Support for up to 16 inputs per gate           |
+| -> Interactive command-line interface                      |
+| -> Colorful truth table visualization                      |
+| -> Real-time output generation                             |
++------------------------------------------------------------+
+| Version 1.0 | First Release: 2025 February 16              |
++============================================================+
+
+Type HELP to see available commands
+Press ENTER to continue...
+```
 
 ## Features
 
@@ -63,6 +90,31 @@ A command-line tool for generating and visualizing truth tables for various logi
 - `CLS` - Clear screen
 - `EXIT` - Exit program
 
+```
+[logic]> HELP
+
++=============================================+
+|        Logic Gates Command Reference        |
++=============================================+
+| Available Commands                          |
++---------------------------------------------+
+| OR [num_inputs]   -> Display OR gate table  |
+| AND [num_inputs]  -> Display AND gate table |
+| NOT               -> Display NOT gate table |
+| NAND [num_inputs] -> Display NAND gate table|
+| NOR [num_inputs]  -> Display NOR gate table |
+| XOR [num_inputs]  -> Display XOR gate table |
+| XNOR [num_inputs] -> Display XNOR gate table|
++---------------------------------------------+
+| Utility Commands                            |
++---------------------------------------------+
+| HELP              -> Show this help message |
+| CLS               -> Clear terminal screen  |
+| EXIT              -> Exit the program       |
++---------------------------------------------+
+| Note: [num_inputs] is optional (default: 2) |
++=============================================+
+```
 ### Examples
 
 1. Generate a 2-input AND gate truth table:
